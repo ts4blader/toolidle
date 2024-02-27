@@ -1,0 +1,20 @@
+@import "./layer.css";
+@import "./var.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-main), Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+
+  min-height: 100vh;
+}
+
+hr {
+  border-color: currentColor;
+  color: var(--clr-shade-400);
+}

@@ -1,0 +1,13 @@
+@layer components {
+  .link-hover {
+    @apply cursor-pointer hover:underline hover:text-primary-500;
+  }
+
+  .link {
+    @apply cursor-pointer hover:underline text-primary-500;
+  }
+
+  .clickable {
+    @apply transition cursor-pointer hover:bg-primary-300 hover:text-primary-900;
+  }
+}
