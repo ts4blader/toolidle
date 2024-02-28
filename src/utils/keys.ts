@@ -1,9 +1,9 @@
-export enum StorageKey {
+export enum STORAGE_KEY {
   setting = 'setting'
 }
 
-export enum SearchQueryKey { }
+export enum SEARCH_QUERY_KEY { }
 
-export enum ReactKey {
+export enum REACT_KEY {
   LAYOUT = 'LAYOUT'
 }
